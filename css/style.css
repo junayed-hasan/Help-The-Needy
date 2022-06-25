@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.everything{
+	max-width: 1900px;
+	width: 100%;
+	height: auto;
+	min-width: 1900px;
+
+}
+
+.bottom{
+	margin-bottom: 1000px;
+}
+
+body{
+	background-color: white;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.6em;
+	margin: 0;
+	float: left;
+}
+
+
+#img{
+	background-image: url('../images/background.jpg');
+	border-style: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	margin-top: -19%;
+}
+
+.container{
+	color: white;
+	font-size: 60px;
+	line-height: 100px;
+	width: 90%;
+	margin-left: 10%;
+	margin-top: -20%;
+}
+
+.area2{
+	text-align: left;
+	line-height: 100px;
+	margin-left: 80px;
+	margin-top: -90px;
+	font-size: 30px;
+}
+
+.area{
+	padding: 10px;
+}
+
+
+#main_header{
+	margin-top: -10px;
+	margin-left: 200px;
+	margin-bottom: 300px;
+	border-style: none;
+	height: 800px;
+	font-weight: bold;
+	color: tomato;
+}
+
+#info_header{
+	background-color: tomato;
+	color: white;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 25px;
+	padding-left: 30%;
+	width: auto;
+	height: auto;
+}
+
+#navigation_bar{
+	text-align: right;
+	margin-top: -1100px;
+	margin-bottom: 300px;
+	word-spacing: 20px;
+	font-size: 25px;
+	margin-right: 150px;
+	font-weight: bold;
+	color: tomato;
+
+	border-style: solid;
+	border-color: black;
+}
+
+#navigation_bar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+#navigation_bar li{
+	display: inline;
+	text-decoration: underline;
+}
+
+#showcase{
+
+}
+
+#logo{
+	background: transparent;
+}
+
+.area h5{
+	word-spacing:;
+	margin-left: 50px;
+	background-color: tomato;
+	padding-bottom: 10px;
+	margin-top: -5px;
+}
+
+.area a{
+	color: tomato;
+	text-decoration: none;
+}
+
+.area a:hover{
+	color: darkblue;
+}
+
+.area a:active{
+	color: darkseagreen;
+}
+
+.area2 a{
+	color: tomato;
+	text-decoration: none;
+}
+
+.area2 a:active{
+	color: darkseagreen;
+}
+
+.main_body{
+	width: 100%;
+	margin-top: 20%;
+	height: 420px;
+	max-width: 1900px;
+	min-width: 1900px;
+}
+.main_body1{
+	margin-top: %;
+	margin-left: 1%;
+	border-style: inset;
+	text-align: center;
+	height: 400px;
+	width: 22%;
+	max-width: 2000px;
+	font-size: 30px;
+	color: tomato;
+	border-color: tomato;
+	border-width: 10px;
+	zoom: 1.0;
+}
+
+.main_body1:hover{
+	background-color: tomato;
+	color: white;
+}
+
+.main_body1 h3{
+	margin-top: 165px;
+}
+
+.main_body2{
+	margin-top: -22.1%;
+	margin-left: 26%;
+	border-style: inset;
+	text-align: center;
+	height: 400px;
+	width: 22%;
+	font-size: 30px;
+	color: tomato;
+	border-color: tomato;
+	border-width: 10px;
+	zoom: 1.0;
+}
+
+.main_body2:hover{
+	background-color: tomato;
+	color: white;
+}
+.main_body2 h3{
+	margin-top: 165px;
+}
+
+.main_body3{
+	margin-top: -22.1%;
+	margin-left: 51%;
+	border-style: inset;
+	text-align: center;
+	height: 400px;
+	width: 22%;
+	font-size: 30px;
+	color: tomato;
+	border-color: tomato;
+	border-width: 10px;
+	zoom: 1.0;
+}
+.main_body3:hover{
+	background-color: tomato;
+	color: white;
+}
+
+.main_body3 h3{
+	margin-top: 165px;
+}
+
+.main_body4{
+	margin-top: -22.1%;
+	margin-left: 76%;
+	border-style: inset;
+	text-align: center;
+	height: 400px;
+	width: 22%;
+	font-size: 30px;
+	color: tomato;
+	border-color: tomato;
+	border-width: 10px;
+	zoom: 1.0;
+}
+
+.main_body4:hover{
+	background-color: tomato;
+	color: white;
+}
+
+.main_body4 h3{
+	margin-top: 165px;
+}
+
+.main_body h6 a{
+	color: darkred;
+}
