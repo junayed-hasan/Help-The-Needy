@@ -240,3 +240,148 @@ body{
 .main_body h6 a{
 	color: darkred;
 }
+
+.gallery{
+	height: 500px;
+	width: 1800px;
+	border-style: ridge;
+	border-width: 50px;
+	margin-top: 200px;
+	background-color: tomato;
+	border-color: orangered;
+}
+
+.gallery h3{
+	margin-left: 775px;
+	padding-top: 20px;
+	font-size: 40px;
+	color: cyan;
+	font-weight: bold;
+	font-family: cursive;
+	text-decoration: underline;
+}
+
+.extra_pic1{
+	margin-left: 250px;
+	margin-top: -480px;
+}
+
+.extra_pic2{
+	margin-left: 1420px;
+	margin-top: -410px;
+}
+
+#slider {
+  position: absolute;
+  width: 500px;
+  height: 265px;
+ 
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+
+  margin-top: 90px;
+  margin-left: 699px;
+}
+
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+ 
+  float: left;
+}
+#slider ul li img{
+  width: 500px;
+  height: 265px;
+}
+ 
+#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+.people{
+
+	margin-top: 200px;
+	margin-left: 735px;
+	font-family: -apple-system, BlinkMacSystemFont;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    padding: 0;
+    line-height: 1;
+    font-size: 30px;
+    color: orangered;
+}
+
+.person1{
+	border-style: ridge;
+	border-color: orangered;
+	border-width: 20px;
+
+	height: 800px;
+	width: 28%;
+	margin-top: 80px;
+	margin-left: 30px;
+	margin-bottom: -1000px;
+}
+
+.person1 img{
+	margin-left: 205px;
+}
+
+.person1 h2{
+	text-align: center;
+	color: orange;
+}
+
+.person1 h3{
+	text-align: center;
+	color: tomato;
+}
+.person2{
+	border-style: ridge;
+	border-color: orangered;
+	border-width: 20px;
+
+	height: 800px;
+	width: 28%;
+	margin-top: 160px;
+	margin-left: 660px;
+}
+
+.person2 img{
+	margin-left: 205px;
+}
+
