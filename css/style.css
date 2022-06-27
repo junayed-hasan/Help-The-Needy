@@ -385,3 +385,132 @@ body{
 	margin-left: 205px;
 }
 
+.person2 h2{
+	text-align: center;
+	color: orange;
+}
+
+.person2 h3{
+	text-align: center;
+	color: tomato;
+}
+
+.person3{
+	border-style: ridge;
+	border-color: orangered;
+	border-width: 20px;
+
+	height: 800px;
+	width: 28%;
+	margin-top: -840px;
+	margin-left: 1290px;
+}
+
+.person3 img{
+	margin-left: 190px;
+}
+
+.person3 h2{
+	text-align: center;
+	color: orange;
+}
+
+.person3 h3{
+	text-align: center;
+	color: tomato;
+}
+
+footer{
+	margin-top: 200px;
+
+	height: 50%;
+	width: 100%;
+	background-color: tomato;
+}
+
+.footer1{
+	margin-left: 300px;
+	height: 200px;
+	width: 40%;
+	border-style: solid;
+	border-color: tomato;
+	margin-top: px;
+}
+
+.footer1 h3{
+	font-size: 18px;
+	color: white;
+}
+.footer1 h4{
+	font-size: 20px;
+	margin-top: 20px;
+	color: White;
+	font-style: Arial;
+}
+
+.footer1 h5{
+	font-size: 25px;
+	color: white;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.footer1 h6{
+	font-size: 18px;
+	color: white;
+	font-style: arial;
+}
+
+.footer2{
+	border-style: solid;
+	border-color: tomato;
+	width: 50%;
+	height: 200px;
+
+	margin-left: 32.7%;
+	margin-top: -205px;
+	text-align: right;
+}
+
+.footer2 i{
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+}
+
+.footer2 h4{
+	color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: tomato;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 15px;
+}
+
+.dropdown-content a:hover {background-color: tomato}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
