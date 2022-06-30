@@ -1,3 +1,19 @@
+<?php
+
+ $db = mysqli_connect('localhost','username','','lab_project')
+ or die('Error connecting to MySQL server.');
+
+ $dName = $_POST['dName'];
+  $dEmail = $_POST['dEmail'];
+  $dPhone = $_POST['dPhone'];
+  $dID = $_POST['dID'];
+  $donationAmount = $_POST['donationAmount'];
+  $transactionID = $_POST['transactionID'];
+  $rID = $_POST['rID'];
+  $eID = $_POST['eID'];
+  $donationDate = $_POST['donationDate'];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
