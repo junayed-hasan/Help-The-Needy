@@ -57,6 +57,45 @@
 		</div>
 	</section>
 
+	<table>
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>User-Name</th>
+			<th>Post</th>
+		</tr>
+
+		<?php
+		
+			$servername = "localhost";
+			$username = "root";
+			$password = "";
+			$dbname = "lab_project";
+
+			$conn = new mysqli($servername, $username, $password, $dbname);
+
+			if ($conn->connect_error) {
+			  die("Connection failed: " . $conn->connect_error);
+			}
+
+			$sql = "select aID, aname, ausername, apost from admin";
+			$result = $conn -> query($sql);
+
+			if($result-> num_rows > 0){
+				while($row = $result-> fetch_assoc()){
+					echo "<tr><td>". $row["aID"] ."</td><td>". $row["aname"]."</td><td>". $row["ausername"]."</td><td>". $row["apost"]. "</td></tr>";
+				}
+
+			echo "</table>";
+			}
+			else{
+				echo "No Admins Working Currently.";
+			}
+
+
+			$conn-> close();
+		?>
+	</table>
 
 	<footer>
 		<div class = "footer1">
