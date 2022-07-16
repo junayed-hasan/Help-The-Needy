@@ -1,3 +1,15 @@
+<?php
+
+ $db = mysqli_connect('localhost','username','','lab_project')
+ or die('Error connecting to MySQL server.');
+
+ $name = $_POST['dName'];
+  $email = $_POST['dEmail'];
+  $address = $_POST['dAddress'];
+  $phone = $_POST['dPhone'];
+  $city = $_POST['dCity'];
+?>
+
 <html>
 <head>
   <meta charset="utf-8">
