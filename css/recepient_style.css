@@ -55,3 +55,42 @@ body{
 .area{
   padding: 10px;
 }
+
+#main_header{
+  margin-top: -10px;
+  margin-left: 200px;
+  margin-bottom: 300px;
+  border-style: none;
+  height: 800px;
+  font-weight: bold;
+  color: tomato;
+}
+
+#info_header{
+  background-color: tomato;
+  color: white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 25px;
+  padding-left: 30%;
+  width: auto;
+  height: auto;
+}
+
+#navigation_bar{
+  text-align: right;
+  margin-top: -1100px;
+  margin-bottom: 300px;
+  word-spacing: 20px;
+  font-size: 25px;
+  margin-right: 150px;
+  font-weight: bold;
+  color: tomato;
+
+  border-style: solid;
+  border-color: black;
+}
+
+#navigation_bar ul{
+  list-style: none;
+  padding: 0px;
+}
