@@ -194,3 +194,68 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
+input[type=submit] {
+  width: 100%;
+  background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: orangered;
+}
+
+footer{
+  margin-top: 0%;
+  height: 50%;
+  width: 100%;
+  background-color: tomato;
+}
+
+.footer1{
+  margin-left: 300px;
+  height: 200px;
+  width: 40%;
+  border-style: solid;
+  border-color: tomato;
+  margin-top: px;
+}
+
+.footer1 h3{
+  font-size: 18px;
+  color: white;
+}
+.footer1 h4{
+  font-size: 20px;
+  margin-top: 20px;
+  color: White;
+  font-style: Arial;
+}
+
+.footer1 h5{
+  font-size: 25px;
+  color: white;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.footer1 h6{
+  font-size: 18px;
+  color: white;
+  font-style: arial;
+}
+
+.footer2{
+  border-style: solid;
+  border-color: tomato;
+  width: 50%;
+  height: 200px;
+
+  margin-left: 32.7%;
+  margin-top: -205px;
+  text-align: right;
+}
