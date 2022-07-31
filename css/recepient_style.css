@@ -259,3 +259,59 @@ footer{
   margin-top: -205px;
   text-align: right;
 }
+
+.footer2 i{
+  font-size: 40px;
+  padding: 10px;
+  color: white;
+}
+
+.footer2 h4{
+  color: white;
+}
+
+.back{
+  border-style: ;
+  border-color: black;
+  margin-left: 0%;
+  margin-right: 73%;
+  height: 900px;
+  margin-top: -41.4%;
+  background-color: gainsboro;
+}
+
+.back h2{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.back li{
+  list-style-type: square;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.back2{
+  border-style:;
+  border-color: black;
+  margin-left: 72%;
+  margin-right: 0%;
+  height: 900px;
+  margin-top: -47.39%;
+  background-color: gainsboro;
+  flex: 50%;
+
+  padding: 0 4px;
+}
+
+.back2 h3{
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.back2 img{
+  padding: 10px;
+}
