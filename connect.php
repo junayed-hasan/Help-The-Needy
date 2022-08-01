@@ -12,5 +12,11 @@
 	$phone = $_POST['dPhone'];
 	$city = $_POST['dCity'];
 
-	
+	$sql = "INSERT INTO `donor` (`dname`, `demail`, `daddress`, `dphone`, `dcity`) VALUES ('$name', '$email', '$address', '$phone', '$city')";
+
+	$rs = mysqli_query($conn, $sql);
+
+	if($rs){
+		echo "Records Inserted";
+	}
 ?>
