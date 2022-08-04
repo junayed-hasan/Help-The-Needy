@@ -12,4 +12,6 @@
 	$phone = $_POST['rphone'];
 	$city = $_POST['rcity'];
 
+	$sql = "INSERT INTO `recipient` (`rname`, `remail`, `raddress`, `rphone`, `rcity`) VALUES ('$name', '$email', '$address', '$phone', '$city')";
+
 ?>
