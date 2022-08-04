@@ -14,4 +14,9 @@
 
 	$sql = "INSERT INTO `recipient` (`rname`, `remail`, `raddress`, `rphone`, `rcity`) VALUES ('$name', '$email', '$address', '$phone', '$city')";
 
+	$rs = mysqli_query($conn, $sql);
+
+	if($rs){
+		echo "Records Inserted";
+	}
 ?>
