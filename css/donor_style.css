@@ -171,3 +171,90 @@ body{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+.form{
+  margin-top: 22%;
+  margin-left: 28.5%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+}
+
+.form h3{
+  text-align: center;
+  color: tomato;
+  font-size: 25px;
+  margin-bottom: 2%
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: orangered;
+}
+
+
+.back{
+  border-style: ;
+  border-color: black;
+  margin-left: 0%;
+  margin-right: 73%;
+  height: 900px;
+  margin-top: -39.5%;
+  background-color: gainsboro;
+}
+
+.back h2{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.back li{
+  list-style-type: square;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.back2{
+  border-style:;
+  border-color: black;
+  margin-left: 72%;
+  margin-right: 0%;
+  height: 900px;
+  margin-top: -47.33%;
+  background-color: gainsboro;
+  flex: 50%;
+
+  padding: 0 4px;
+}
+
+.back2 h3{
+  text-align: center;
+  padding-bottom: 50px;
+  font-family: sans-serif;
+}
+
+.back2 img{
+  padding: 10px;
+}
