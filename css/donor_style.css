@@ -103,3 +103,71 @@ body{
 #showcase{
 
 }
+
+#logo{
+  background: transparent;
+}
+
+.area h5{
+  word-spacing:;
+  margin-left: 50px;
+  background-color: tomato;
+  padding-bottom: 10px;
+  margin-top: -5px;
+}
+
+.area a{
+  color: tomato;
+  text-decoration: none;
+}
+
+.area a:hover{
+  color: darkblue;
+}
+
+.area a:active{
+  color: darkseagreen;
+}
+
+.area2 a{
+  color: tomato;
+  text-decoration: none;
+}
+
+.area2 a:active{
+  color: darkseagreen;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: tomato;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 15px;
+}
+
+.dropdown-content a:hover {background-color: tomato}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
