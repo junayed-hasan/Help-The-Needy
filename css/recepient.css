@@ -1,0 +1,53 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+
+.info_header{
+	font-weight: bold;
+	color: white;
+	background-color: tomato;
+	text-align: center;
+	font-size: 27px;
+	padding: 5px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.img{
+	background-image: url('../images/about.jpeg');
+	border-style: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+
+.area{
+	padding: 10px;
+}
+
+#main_header{
+	margin-top: ;
+	margin-left: 10%;
+	border-style: none;
+	height: auto;
+	font-weight: bold;
+	color: tomato;
+	padding: 10px;
+}
+
+.area2{
+	text-align: left;
+	line-height: 100px;
+	margin-left: 80px;
+	margin-top: -90px;
+	font-size: 30px;
+	color: tomato;
+}
+
+.area2 a{
+	color: tomato;
+	text-decoration: none;
+}
+
+
