@@ -50,4 +50,71 @@
 	text-decoration: none;
 }
 
+.area2 a:active{
+	color: darkseagreen;
+}
+
+.navigation_bar{
+	text-align: right;
+	margin-top: -41%;
+	margin-bottom: ;
+	word-spacing: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	color: tomato;
+}
+
+.navigation_bar ul{
+	list-style: none;
+	padding: 0px;
+}
+
+.navigation_bar li{
+	display: inline;
+	text-decoration: underline;
+}
+
+.area h5{
+	word-spacing:;
+	margin-left: 50px;
+	background-color: tomato;
+	padding-bottom: 10px;
+	margin-top: -5px;
+}
+
+.area a{
+	color: tomato;
+	text-decoration: none;
+}
+
+.area a:hover{
+	color: darkblue;
+}
+
+.area a:active{
+	color: darkseagreen;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: tomato;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 15px;
+}
 
