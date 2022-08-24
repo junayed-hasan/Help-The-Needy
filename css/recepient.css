@@ -179,3 +179,64 @@ tr{
 	height: 100px;
 	background-color: gainsboro;
 }
+
+footer{
+	margin-top: %;
+	height: 23%;
+	width: 100%;
+	background-color: tomato;
+}
+
+.footer1{
+	margin-left: 300px;
+	height: 200px;
+	width: 40%;
+	border-style: solid;
+	border-color: tomato;
+	margin-top: px;
+}
+
+.footer1 h3{
+	font-size: 18px;
+	color: white;
+}
+.footer1 h4{
+	font-size: 20px;
+	margin-top: 20px;
+	color: White;
+	font-style: Arial;
+}
+
+.footer1 h5{
+	font-size: 25px;
+	color: white;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.footer1 h6{
+	font-size: 18px;
+	color: white;
+	font-style: arial;
+}
+
+.footer2{
+	border-style: solid;
+	border-color: tomato;
+	width: 50%;
+	height: 200px;
+
+	margin-left: 32.7%;
+	margin-top: -205px;
+	text-align: right;
+}
+
+.footer2 i{
+	font-size: 40px;
+	padding: 10px;
+	color: white;
+}
+
+.footer2 h4{
+	color: white;
+}
+
